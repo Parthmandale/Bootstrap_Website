@@ -29,8 +29,8 @@
                         <a class="nav-link " aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="About.html">About</a>
-                    </li>
+                        <a class="nav-link " href="About.html">About</a>
+                    </li> 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,7 +46,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact-us</a>
+                        <a class="nav-link active" href="contact.html">Contact-us</a>
                       </li>
                     <!-- <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -60,54 +60,38 @@
         </div>
     </nav>
 
-    <!-- cONTAINER -->
-<div class="container my-4">
-
-    <div class="row featurette d-flex justify-content-center align-items-center  ">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+<div class="container">
+    <h2>Contact</h2>
+    <form class="row g-3">
+        <div class="col-auto">
+          <label for="staticEmail2" class="visually-hidden">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Your @email">
         </div>
-        <div class="col-md-5">
-            <img src="img/EARTH.jpg" class="img-fluid" alt="" height="500px" width="500px">
-          
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
         </div>
-    </div>
-    
-    <div class="row featurette d-flex justify-content-center align-items-center  ">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
         </div>
-        <div class="col-md-5 order-md-1">
-            <img src="img/NATURE.jpeg" class="img-fluid" alt="" height="500px" width="500px">
-          
-        </div>
-    </div>
-
-
-    <div class="row featurette d-flex justify-content-center align-items-center  ">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-        </div>
-        <div class="col-md-5">
-            <img src="img/sunset.jpeg" class="img-fluid" alt="" height="500px" width="500px">
-          
-        </div>
-    </div>
-
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              I agree all condition
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+             Are u a memeber?
+            </label>
+          </div>
+      </form>
+      <button class="btn btn-primary my-4">Submit</button>
 </div>
-
 
 <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>© 2017–2023 Developers for Developrs, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
   </footer>
 
-
-<!-- 
-
-
-<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                    src="img/EARTH.jpg" alt=""> -->
